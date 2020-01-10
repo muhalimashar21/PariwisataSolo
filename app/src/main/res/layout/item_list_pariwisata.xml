@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="match_parent"
+                  android:paddingHorizontal="15dp"
+                  android:orientation="horizontal"
+                  android:layout_height="wrap_content">
+        <ImageView android:layout_width="50dp"
+                   android:id="@+id/ivWikiPoster"
+                   android:scaleType="centerCrop"
+                   android:src="@drawable/ic_launcher_background"
+                   android:layout_height="50dp"/>
+        <LinearLayout android:layout_width="match_parent"
+                      android:orientation="vertical"
+                      android:layout_height="wrap_content">
+            <TextView android:layout_width="match_parent"
+                      android:id="@+id/tvTitle"
+                      android:textSize="18sp"
+                      android:layout_marginHorizontal="10dp"
+                      android:text="Judul Tempat"
+                      android:layout_height="wrap_content"/>
+            <TextView android:layout_width="match_parent"
+                      android:id="@+id/tvWritter"
+                      android:layout_marginHorizontal="10dp"
+                      android:textColor="@color/colorPrimary"
+                      android:text="Penulis : Ali"
+                      android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+<View android:layout_width="match_parent"
+      android:id="@+id/viewLineSeparator"
+      android:layout_marginVertical="10dp"
+      android:background="@color/colorPrimaryDark"
+      android:layout_height="1dp"/>
+</LinearLayout>
